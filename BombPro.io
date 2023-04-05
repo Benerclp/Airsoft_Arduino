@@ -1,3 +1,4 @@
+// ############################### Inicio del codigo #########################################
 #include <Wire.h> 
 #include <Keypad.h>
 //#incluir <LiquidCrystal_I2C.h>
@@ -305,6 +306,8 @@ void explodeSplash(){
 
 
 
+// ############################  Comienza el codigo para el juego dominación #####################################################3
+
 void domination(){
 
   //SETUP INITIAL TIME 
@@ -562,7 +565,7 @@ void gameOver(){
 
 
 
-
+// #################################  comienza el codigo del juego buscar y destruir  #####################################################
 
 void search(){
   cls();
@@ -841,6 +844,9 @@ void destroy(){
 
 
 
+// #########################################   comienza el codigo para Keys   ################################################
+
+
 //Used to get keys, here you can configure how works the input without modify the other code
 
 
@@ -1010,7 +1016,7 @@ char getNumber(){
 
 
 
-
+// ##############################   comienza el codigo para el Menú   #############################################
 
 
 //##################MENUS###############################
@@ -1370,6 +1376,7 @@ void configQuickGame(){
 
 
 
+//######################## Comienza el codigo para el juego Sabotaje ####################################
 
 
 void sabotage(){
@@ -1636,8 +1643,7 @@ void destroySabotage(){
  
  
   
-  
-  
+ // ###################################### comienza el codigo para dibujar Porcentaje ##################################333
   
   
 
